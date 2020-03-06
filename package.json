@@ -4,7 +4,7 @@
   "description": "",
   "main": "rectangle.js",
   "scripts": {
-    "test": "grunt lint"
+    "test": ""
   },
   "repository": {
     "type": "git",

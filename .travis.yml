@@ -3,6 +3,7 @@ node_js:
   - "6"
 
 after_script:
+  - grunt lint
   - gitbook install
   - gitbook build
   - cd ./_book
