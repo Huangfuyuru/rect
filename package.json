@@ -4,7 +4,7 @@
   "description": "",
   "main": "rectangle.js",
   "scripts": {
-    "test": ""
+    "test": "grunt lint"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "devDependencies": {
     "grunt": "^1.0.4",
     "grunt-contrib-csslint": "^2.0.0",
-    "grunt-eslint": "^22.0.0",
+    "grunt-eslint": "^21.0.0",
     "grunt-htmlhint": "^0.9.13"
   }
 }
