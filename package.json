@@ -4,7 +4,7 @@
   "description": "",
   "main": "rectangle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt lint"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Huangfuyuru/rect/issues"
   },
-  "homepage": "https://github.com/Huangfuyuru/rect#readme"
+  "homepage": "https://github.com/Huangfuyuru/rect#readme",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-eslint": "^22.0.0",
+    "grunt-htmlhint": "^0.9.13"
+  }
 }

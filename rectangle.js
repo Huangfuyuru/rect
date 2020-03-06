@@ -1,3 +1,4 @@
+
 $(function(){
   //get dom
   var $width  = $('#width'),
@@ -6,14 +7,14 @@ $(function(){
       $perimeter = $('#perimeter'),
       $area = $('#area');
   /*calc button click event*/
-$btnCal.click(function(){
-  var w = Number($width.val()),
-      h = Number($height.val());
+  $btnCal.click(function(){
+    var w = Number($width.val()),
+        h = Number($height.val());
   
-  var p = 2*(w+h),
-      a = w*h;
+    var p = 2*(w+h),
+        a = w*h;
   
-  $perimeter.val(p);
-  $area.val(a);
-})
+    $perimeter.val(p);
+    $area.val(a);
+  });
 });
